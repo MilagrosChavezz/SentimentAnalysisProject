@@ -9,39 +9,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SentimentAnalysis.Web
 build_property.RootNamespace = SentimentAnalysis.Web
-build_property.ProjectDir = C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnalysis.Web\
+build_property.ProjectDir = C:\Users\Admin\Documents\GitHub\SentimentAnalysisProyect\SentimentAnalysis.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnalysis.Web
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Documents\GitHub\SentimentAnalysisProyect\SentimentAnalysis.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/source/repos/SentimentAnalysisProject/SentimentAnalysis.Web/Views/Blog/CrearPost.cshtml]
+[C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Blog/CrearPost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xDcmVhclBvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/SentimentAnalysisProject/SentimentAnalysis.Web/Views/Blog/Index.cshtml]
+[C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/SentimentAnalysisProject/SentimentAnalysis.Web/Views/Prediction/Predict.cshtml]
+[C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Prediction/Predict.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGljdGlvblxQcmVkaWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/SentimentAnalysisProject/SentimentAnalysis.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/SentimentAnalysisProject/SentimentAnalysis.Web/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/SentimentAnalysisProject/SentimentAnalysis.Web/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/SentimentAnalysisProject/SentimentAnalysis.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qzp3xmhl8f

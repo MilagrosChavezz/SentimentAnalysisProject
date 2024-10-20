@@ -19,26 +19,30 @@ builder.Services.AddDbContext<SentimentAnalysisContext>(options =>
     options.UseSqlServer(Configuration.GetConnectionString("SentimentAnalysisContext")));
 
 // Configuración de autenticación
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = "Google";
-})
-.AddCookie(CookieAuthenticationDefaults.AuthenticationScheme) // Almacena la información de sesión en cookies
-.AddOpenIdConnect("Google", options =>
-{
-    options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
-    options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+var googleClientId = builder.Configuration["Authentication:Google:ClientId"];
+var googleClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
 
-    options.Authority = "https://accounts.google.com"; // URL del proveedor de Google
-    options.ResponseType = "code";
-    options.SaveTokens = true; // Guarda los tokens recibidos
-    options.CallbackPath = "/signin-google"; // Ruta para manejar la respuesta de Google
-
-    options.Scope.Add("openid");
-    options.Scope.Add("profile");
-    options.Scope.Add("email");
-});
+if (!string.IsNullOrEmpty(googleClientId) && !string.IsNullOrEmpty(googleClientSecret))
+{
+    builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = "Google";
+    })
+    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddOpenIdConnect("Google", options =>
+    {
+        options.ClientId = googleClientId;
+        options.ClientSecret = googleClientSecret;
+        options.Authority = "https://accounts.google.com";
+        options.ResponseType = "code";
+        options.SaveTokens = true;
+        options.CallbackPath = "/signin-google";
+        options.Scope.Add("openid");
+        options.Scope.Add("profile");
+        options.Scope.Add("email");
+    });
+}
 
 var app = builder.Build();
 

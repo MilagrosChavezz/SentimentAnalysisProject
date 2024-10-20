@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj",
         "projectName": "SentimentAnalysis.Data",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,21 +85,17 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj",
         "projectName": "SentimentAnalysis.Entitys",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,21 +166,17 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj",
         "projectName": "SentimentAnalysis.Service",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -203,11 +191,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj"
               },
-              "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj"
               }
             }
           }
@@ -274,21 +262,17 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj",
         "projectName": "SentimentAnalysis.Web",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -303,14 +287,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj"
               },
-              "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj"
               },
-              "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj"
               }
             }
           }

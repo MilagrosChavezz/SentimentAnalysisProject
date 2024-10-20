@@ -3,10 +3,12 @@ using System.Diagnostics;
 using SentimentAnalysis.Service;
 using SentimentAnalysis.Entitys;
 using Microsoft.ML;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace SentimentAnalysis.Web.Controllers
 {
+    [AllowAnonymous]
     public class PredictionController : Controller
     {
         private readonly MLAnalysis service; 
@@ -37,7 +39,7 @@ namespace SentimentAnalysis.Web.Controllers
 
             return View(Data);
         }
-
+        [AllowAnonymous]
         public IActionResult Predict()
         {
             ViewBag.PredictionResult = TempData["PredictionResult"];
