@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SentimentAnalysis.ML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcb660278a023955fc90459f15f9b5265782bed1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0858323660b56e1906f5e9d45aa14ea442cf07d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SentimentAnalysis.ML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SentimentAnalysis.ML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

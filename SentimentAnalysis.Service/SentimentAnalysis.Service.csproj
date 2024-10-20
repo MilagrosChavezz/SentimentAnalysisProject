@@ -27,9 +27,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Page Include="Data\depression_dataset.csv">
+	<ItemGroup>
+		<None Include="Data\depression_dataset.csv">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+    <Compile Update="MLAnalysis.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Page>
+    </Compile>
   </ItemGroup>
 </Project>

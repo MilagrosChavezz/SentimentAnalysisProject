@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\bin\Debug\net8.0\SentimentAnalysis.Data.deps.json
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\bin\Debug\net8.0\SentimentAnalysis.Data.runtimeconfig.json
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\bin\Debug\net8.0\SentimentAnalysis.Data.dll
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\bin\Debug\net8.0\SentimentAnalysis.Data.pdb
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\SentimentAnalysis.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\SentimentAnalysis.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\SentimentAnalysis.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\SentimentAnalysis.Data.AssemblyInfo.cs
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\SentimentAnalysis.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\SentimentAnalysis.Data.sourcelink.json
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\SentimentAnalysis.Data.dll
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\refint\SentimentAnalysis.Data.dll
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\SentimentAnalysis.Data.pdb
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\SentimentAnalysis.Data.genruntimeconfig.cache
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnallisys.Data\obj\Debug\net8.0\ref\SentimentAnalysis.Data.dll

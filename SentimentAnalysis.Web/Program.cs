@@ -27,7 +27,9 @@ builder.Services.AddAuthentication(options =>
 .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme) // Almacena la información de sesión en cookies
 .AddOpenIdConnect("Google", options =>
 {
-   
+    options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
+    options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+
     options.Authority = "https://accounts.google.com"; // URL del proveedor de Google
     options.ResponseType = "code";
     options.SaveTokens = true; // Guarda los tokens recibidos

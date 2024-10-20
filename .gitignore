@@ -1,0 +1,11 @@
+# Ignorar archivos de configuración
+appsettings.json
+appsettings.*.json  # Ignorar cualquier otro archivo de configuración con el prefijo appsettings
+*.secret             # Ignorar archivos que terminen en .secret
+
+# Ignorar otros archivos que podrían contener credenciales
+*.env                # Ignorar archivos de entorno
+*.key                # Ignorar archivos de clave
+*.pem                # Ignorar archivos de certificado
+*.pfx                # Ignorar archivos de certificado PFX
+*.crt                # Ignorar archivos de certificado CRT
