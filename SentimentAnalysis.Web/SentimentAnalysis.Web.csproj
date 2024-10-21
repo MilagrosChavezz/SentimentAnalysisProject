@@ -34,6 +34,5 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Views\Account\" />
   </ItemGroup>
 </Project>

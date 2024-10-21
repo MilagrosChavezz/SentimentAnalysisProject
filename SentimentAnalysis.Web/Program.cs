@@ -21,6 +21,8 @@ builder.Services.AddDbContext<SentimentAnalysisContext>(options =>
 var googleClientId = builder.Configuration["Authentication:Google:ClientId"];
 var googleClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
 
+builder.Services.AddScoped<UserService>();
+
 if (!string.IsNullOrEmpty(googleClientId) && !string.IsNullOrEmpty(googleClientSecret))
 {
     builder.Services.AddAuthentication(options =>
@@ -40,6 +42,8 @@ if (!string.IsNullOrEmpty(googleClientId) && !string.IsNullOrEmpty(googleClientS
         options.Scope.Add("openid");
         options.Scope.Add("profile");
         options.Scope.Add("email");
+        options.Scope.Add("https://www.googleapis.com/auth/user.birthday.read"); // Para obtener fecha de nacimiento
+        options.Scope.Add("https://www.googleapis.com/auth/userinfo.profile"); // Perfil y género
     });
 }
 
