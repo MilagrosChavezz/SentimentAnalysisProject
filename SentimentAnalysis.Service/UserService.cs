@@ -32,22 +32,6 @@ namespace SentimentAnalysis.Service
         }
 
 
-        public async Task CreateUserIfNotExists(string email, string fullName, DateTime? birthday, string gender, string country)
-        {
-            var existingUser = await context.Users.FirstOrDefaultAsync(u => u.Email == email);
-            if (existingUser == null)
-            {
-                var newUser = new User
-                {
-                    Email = email,
-                    UserName = fullName,
-                    Birthday = birthday.HasValue ? DateOnly.FromDateTime(birthday.Value) : (DateOnly?)null,
-                    Genre = gender,
-                    Country = country
-                };
-                context.Users.Add(newUser);
-                await context.SaveChangesAsync();
-            }
-        }
+
     }
 }
