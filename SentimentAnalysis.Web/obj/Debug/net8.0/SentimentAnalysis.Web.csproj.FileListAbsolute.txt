@@ -395,3 +395,4 @@ C:\Users\Admin\Documents\GitHub\SentimentAnalysisProyect\SentimentAnalysis.Web\o
 C:\Users\Admin\Documents\GitHub\SentimentAnalysisProyect\SentimentAnalysis.Web\obj\Debug\net8.0\SentimentAnalysis.Web.pdb
 C:\Users\Admin\Documents\GitHub\SentimentAnalysisProyect\SentimentAnalysis.Web\obj\Debug\net8.0\SentimentAnalysis.Web.genruntimeconfig.cache
 C:\Users\Admin\Documents\GitHub\SentimentAnalysisProyect\SentimentAnalysis.Web\obj\Debug\net8.0\ref\SentimentAnalysis.Web.dll
+C:\Users\Admin\source\repos\SentimentAnalysisProject\SentimentAnalysis.Web\bin\Debug\net8.0\Data\depression_dataset.csv

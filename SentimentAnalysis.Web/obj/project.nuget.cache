@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mV3qbuG/rmY=",
+  "dgSpecHash": "PQZyuOHdLeI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\autofac\\4.9.4\\autofac.4.9.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
