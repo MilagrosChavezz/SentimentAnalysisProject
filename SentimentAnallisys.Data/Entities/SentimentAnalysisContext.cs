@@ -65,9 +65,6 @@ public partial class SentimentAnalysisContext : DbContext
             entity.Property(e => e.Genre)
                 .HasMaxLength(50)
                 .HasColumnName("genre");
-            entity.Property(e => e.Password)
-                .HasMaxLength(255)
-                .HasColumnName("password");
             entity.Property(e => e.UserName)
                 .HasMaxLength(255)
                 .HasColumnName("userName");

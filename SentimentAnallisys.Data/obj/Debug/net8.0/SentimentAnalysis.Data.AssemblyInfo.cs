@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SentimentAnalysis.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13f79cce5b65b2a730aa678348d12c91bca2df74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+931928ad995cb66b1285dab0b6271c213fa156c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SentimentAnalysis.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SentimentAnalysis.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
