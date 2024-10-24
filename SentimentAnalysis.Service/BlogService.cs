@@ -43,7 +43,22 @@ namespace SentimentAnalysis.Service
             return post;
         }
 
-      
+        public async Task<List<Post>> GetPostsByUser(string username)
+        {
+            return await context.Posts.Where(p => p.User.UserName == username).ToListAsync();
+        }
+
+        public  Task<DateOnly> SetDatePost()
+        {
+            return Task.FromResult(DateOnly.FromDateTime(DateTime.Now));
+        }
+
+        public async Task DeletePost(int id)
+        {
+            var post = await context.Posts.FindAsync(id);
+            context.Posts.Remove(post);
+            await context.SaveChangesAsync();
+        }
     }
     }
 

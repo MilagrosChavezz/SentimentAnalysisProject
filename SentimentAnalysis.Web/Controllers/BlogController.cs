@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SentimentAnalysis.Data.Entities;
 using SentimentAnalysis.Service;
+using SentimentAnalysis.Web.Models;
 
 
 namespace SentimentAnalysis.Web.Controllers
@@ -8,9 +9,11 @@ namespace SentimentAnalysis.Web.Controllers
     public class BlogController : Controller
     {
         private readonly BlogService _blogService;
+        private readonly UserService _userService;
 
-        public BlogController() {
-            _blogService = new BlogService();
+        public BlogController(BlogService blogService,UserService userService) {
+            _blogService = blogService;
+            _userService = userService;
         }
         public IActionResult Index()
         {
@@ -24,8 +27,23 @@ namespace SentimentAnalysis.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CrearPost(Post post)
+        public async Task<IActionResult> CrearPost(PostModelView postModel)
         {
+        
+            User? user = await _userService.GetUserByUsername(postModel.UserName);
+            if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "User not found.");
+                return View(postModel);
+            }
+            var post = new Post
+            {
+                Text = postModel.Text,
+                Title = postModel.Title,
+                UserId = user.Id,
+                PostDate = await _blogService.SetDatePost()
+            };
+         
 
             if (ModelState.IsValid)
             {

@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<MLAnalysis>();
+builder.Services.AddSingleton<PeopleService>();
 
 var Configuration = builder.Configuration;
 
@@ -43,7 +44,7 @@ if (!string.IsNullOrEmpty(googleClientId) && !string.IsNullOrEmpty(googleClientS
         options.Scope.Add("profile");
         options.Scope.Add("email");
         options.Scope.Add("https://www.googleapis.com/auth/user.birthday.read"); // Para obtener fecha de nacimiento
-        options.Scope.Add("https://www.googleapis.com/auth/userinfo.profile"); // Perfil y género
+        options.Scope.Add("https://www.googleapis.com/auth/user.gender.read"); // Perfil y género
     });
 }
 

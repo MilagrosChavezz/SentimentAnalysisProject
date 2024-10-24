@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SentimentAnalysis.Data;
 using SentimentAnalysis.Data.Entities;
+using SentimentAnalysis.Service;
 
 using Microsoft.EntityFrameworkCore;
 
@@ -19,10 +20,12 @@ namespace SentimentAnalysis.Service
     public class UserService
     {
         private readonly SentimentAnalysisContext _context;
+        private readonly PeopleService _peopleService;
 
-        public UserService(SentimentAnalysisContext context)
+        public UserService(SentimentAnalysisContext context, PeopleService peopleService)
         {
             _context = context;
+           _peopleService = peopleService;
         }
 
         // Método para obtener usuarios
@@ -59,6 +62,13 @@ namespace SentimentAnalysis.Service
 
             await _context.SaveChangesAsync();
         }
+
+     
+        public async Task<User?> GetUserByUsername(string username)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.UserName == username);
+        }
     }
 }
+
 

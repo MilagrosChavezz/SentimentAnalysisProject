@@ -11,10 +11,12 @@ namespace SentimentAnalysis.Web.Controllers
     public class AccountController : Controller
     {
         private readonly UserService userService;
+        private readonly PeopleService peopleService;
 
-        public AccountController(UserService userService)
+        public AccountController(UserService userService, PeopleService peopleService)
         {
             this.userService = userService;
+            this.peopleService = peopleService;
         }
 
         [Authorize]
@@ -23,22 +25,46 @@ namespace SentimentAnalysis.Web.Controllers
             // Obtener los claims del usuario autenticado
             var userClaims = User.Claims;
 
+            // Obtener el email del usuario
             var email = userClaims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
-            var nombre = userClaims.FirstOrDefault(c => c.Type == "name")?.Value;
-            var genero = userClaims.FirstOrDefault(c => c.Type == "gender")?.Value;
-            var fechaNacimiento = userClaims.FirstOrDefault(c => c.Type == "birthdate")?.Value;
 
-            // Convertir la fecha de nacimiento a DateOnly
+            // Log para verificar el email obtenido
+            Console.WriteLine($"Email del usuario: {email}");
+
+            // Obtener el token de acceso del usuario autenticado
+            var accessToken = await HttpContext.GetTokenAsync("access_token");
+
+            // Verificar si el token de acceso es válido
+            Console.WriteLine($"Access Token: {accessToken}");
+
+            // Obtener los datos de género y fecha de cumpleaños desde PeopleService
             DateOnly? fechaNac = null;
-            if (DateOnly.TryParse(fechaNacimiento, out var parsedDate))
+            string genero = null;
+
+            if (!string.IsNullOrEmpty(accessToken))
             {
-                fechaNac = parsedDate;
+                var (birthday, gender) = await peopleService.GetUserProfile(accessToken);
+                fechaNac = birthday;
+                genero = gender;
+
+                // Log para verificar los valores obtenidos
+                Console.WriteLine($"Fecha de nacimiento en el controlador: {fechaNac}");
+                Console.WriteLine($"Género en el controlador: {genero}");
             }
 
             // Guardar el perfil del usuario en la base de datos (usando UserService)
+            var nombre = userClaims.FirstOrDefault(c => c.Type == "name")?.Value;
+
+            Console.WriteLine($"Nombre del usuario: {nombre}");
+
             if (!string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(nombre))
             {
                 await userService.SaveUserProfileAsync(email, nombre, genero, fechaNac);
+                Console.WriteLine("Perfil guardado exitosamente en la base de datos.");
+            }
+            else
+            {
+                Console.WriteLine("Error: El email o el nombre son nulos.");
             }
 
             return View();

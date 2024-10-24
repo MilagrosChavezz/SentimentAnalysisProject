@@ -56,9 +56,6 @@ public partial class SentimentAnalysisContext : DbContext
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Birthday).HasColumnName("birthday");
-            entity.Property(e => e.Country)
-                .HasMaxLength(100)
-                .HasColumnName("country");
             entity.Property(e => e.Email)
                 .HasMaxLength(255)
                 .HasColumnName("email");

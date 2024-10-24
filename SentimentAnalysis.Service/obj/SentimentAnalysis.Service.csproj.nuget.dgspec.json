@@ -227,6 +227,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Google.Apis.PeopleService.v1": {
+              "target": "Package",
+              "version": "[1.68.0.3359, )"
+            },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
               "version": "[8.0.10, )"
