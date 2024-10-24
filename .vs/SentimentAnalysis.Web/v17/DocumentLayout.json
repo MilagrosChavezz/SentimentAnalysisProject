@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43DF5DB5-B383-41D2-AF58-4C0E418E6006}|SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanallisys.data\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,19 +91,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Properties\\launchSettings.json",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-24T04:41:09.306Z",
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T04:52:09.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\BlogService.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Service\\BlogService.cs",
@@ -111,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\Entities\\Post.cs",
               "RelativeDocumentMoniker": "SentimentAnallisys.Data\\Entities\\Post.cs",
@@ -123,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CrearPost.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Blog\\CrearPost.cshtml",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Blog\\CrearPost.cshtml",
@@ -135,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\UserService.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Service\\UserService.cs",
@@ -148,31 +152,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Program.cs",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Program.cs",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T20:14:00.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T04:41:09.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\appsettings.json",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\appsettings.json",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\appsettings.json",
               "RelativeToolTip": "SentimentAnalysis.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-21T03:47:27.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Program.cs",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Program.cs",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T20:14:00.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PostModelView.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Models\\PostModelView.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Models\\PostModelView.cs",
@@ -184,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Controllers\\BlogController.cs",
@@ -208,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SentimentAnalysisContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\Entities\\SentimentAnalysisContext.cs",
               "RelativeDocumentMoniker": "SentimentAnallisys.Data\\Entities\\SentimentAnalysisContext.cs",
@@ -220,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\Entities\\User.cs",
               "RelativeDocumentMoniker": "SentimentAnallisys.Data\\Entities\\User.cs",
@@ -232,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Data.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\Data.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Entitys\\Data.cs",
@@ -244,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Controllers\\AccountController.cs",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PeopleService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\PeopleService.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Service\\PeopleService.cs",
@@ -268,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "depression_dataset.csv",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\Data\\depression_dataset.csv",
               "RelativeDocumentMoniker": "SentimentAnalysis.Service\\Data\\depression_dataset.csv",
@@ -280,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Predict.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
