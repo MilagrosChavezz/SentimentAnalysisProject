@@ -9,13 +9,11 @@ namespace SentimentAnalysis.Web.Models
 
         public string Title { get; set; } 
 
-        public int UserId { get; set; }
-
         public bool? IsDepression { get; set; }
 
-        public DateOnly PostDate { get; set; }
+        public DateOnly? PostDate { get; set; }
 
-        public string  UserName { get; set; } 
+   
 
 
     }

@@ -34,10 +34,10 @@ namespace SentimentAnalysis.Service
                 HasHeader = true,
                 Columns = new[]
                 {
-                    new TextLoader.Column("clean_text", DataKind.String, 0),
-                    new TextLoader.Column("is_depression", DataKind.Boolean, 1),
+                        new TextLoader.Column("clean_text", DataKind.String, 0),
+                        new TextLoader.Column("is_depression", DataKind.Boolean, 1),
 
-                }
+                    }
             });
             IDataView dataView = loader.Load(dataPath);
 
@@ -72,6 +72,10 @@ namespace SentimentAnalysis.Service
             var predictionEngine = _mlContext.Model.CreatePredictionEngine<SentimentAnalysis.Entitys.Data, Prediction>(_model);
 
             var prediction = predictionEngine.Predict(data);
+
+            double threshold = 0.6; 
+
+            prediction.is_depression = prediction.Score >= threshold;
 
             return prediction;
         }

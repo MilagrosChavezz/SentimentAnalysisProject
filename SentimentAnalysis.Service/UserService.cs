@@ -64,10 +64,12 @@ namespace SentimentAnalysis.Service
         }
 
      
-        public async Task<User?> GetUserByUsername(string username)
+        public async Task<User> GetUserByEmailAsync(string userEmail)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.UserName == username);
+            return await _context.Users.FirstOrDefaultAsync(u => u.Email == userEmail);
         }
+
+        
     }
 }
 

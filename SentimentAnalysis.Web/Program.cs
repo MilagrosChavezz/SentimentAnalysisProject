@@ -12,12 +12,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<MLAnalysis>();
 builder.Services.AddSingleton<PeopleService>();
+builder.Services.AddSingleton<BlogService>();
+builder.Services.AddSingleton<SentimentAnalysisContext>();
 
 var Configuration = builder.Configuration;
 
-// Configurar DbContext
-builder.Services.AddDbContext<SentimentAnalysisContext>(options =>
-    options.UseSqlServer(Configuration.GetConnectionString("SentimentAnalysisContext")));
 // Configuración de autenticación
 var googleClientId = builder.Configuration["Authentication:Google:ClientId"];
 var googleClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
