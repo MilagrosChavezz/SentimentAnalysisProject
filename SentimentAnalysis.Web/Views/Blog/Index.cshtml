@@ -5,15 +5,30 @@
 }
 
 <div class="text-end">
-    <form asp-controller="Account" asp-action="Login" method="post" class="d-inline">
-        <button type="submit" class="btn btn-primary">
-            <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google Logo" style="width:20px; margin-right:10px;" />
-            Login
-        </button>
+    @if (User.Identity.IsAuthenticated) // Verifica si el usuario está autenticado
+    {
+        <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+            <button type="submit" class="btn btn-danger">Logout</button>
+        </form>
+    }
+    else
+    {
+        <form asp-controller="Account" asp-action="Login" method="post" class="d-inline">
+            <button type="submit" class="btn btn-primary">
+                <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google Logo" style="width:20px; margin-right:10px;" />
+                Login
+            </button>
+        </form>
+    }
+</div>
+<h2 class="text-center">Bienvenido a nuestro blog!</h2>
+
+<div class="search-container text-center">
+    <form method="get" asp-controller="Blog" asp-action="Search">
+        <input type="text" name="keyword" placeholder="Buscar publicaciones..." required />
+        <button type="submit" class="btn btn-primary">Buscar</button>
     </form>
 </div>
-
-<h2 class="text-center">Bienvenido a nuestro blog!</h2>
 
 <div class="post-container">
     @if (Model != null && Model.Any())

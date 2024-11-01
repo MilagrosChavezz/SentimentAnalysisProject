@@ -59,6 +59,15 @@ namespace SentimentAnalysis.Service
             context.Posts.Remove(post);
             await context.SaveChangesAsync();
         }
+
+
+        public async Task<List<Post>> SearchPosts(string keyword)
+        {
+            return await context.Posts
+                                 .Where(p => p.Text.Contains(keyword) || p.Title.Contains(keyword))
+                                 .Include(p => p.User)
+                                 .ToListAsync();
+        }
     }
     }
 
