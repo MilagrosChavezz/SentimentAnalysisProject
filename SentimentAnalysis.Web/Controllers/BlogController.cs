@@ -59,5 +59,12 @@ namespace SentimentAnalysis.Web.Controllers
             await _blogService.CreatePost(post);
             return RedirectToAction("Index");
         }
+
+        public async Task<IActionResult> Search(string keyword)
+        {
+            var results = await _blogService.SearchPosts(keyword);
+            return View("Index", results);
+        }
+
     }
 }
