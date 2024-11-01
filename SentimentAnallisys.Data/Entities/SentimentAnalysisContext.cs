@@ -65,6 +65,7 @@ public partial class SentimentAnalysisContext : DbContext
             entity.Property(e => e.UserName)
                 .HasMaxLength(255)
                 .HasColumnName("userName");
+           
         });
 
         OnModelCreatingPartial(modelBuilder);

@@ -1,0 +1,108 @@
+﻿@model SentimentAnalysis.Web.Models.PostModelView
+
+@{
+    ViewData["Title"] = "Create new Post";
+}
+
+<h2 class="text-center">Create New Post</h2>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+}
+
+<div class="post-container">
+    <form asp-controller="Blog" asp-action="CreatePost" method="post">
+        <div class="form-group">
+            <label asp-for="Title" class="control-label"></label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Text" class="control-label"></label>
+            <textarea asp-for="Text" class="form-control" rows="5"></textarea>
+            <span asp-validation-for="Text" class="text-danger"></span>
+        </div>
+
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary">Create Post</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+    body {
+        background-color: #f8f9fa; /* Color de fondo suave */
+        font-family: Arial, sans-serif; /* Fuente moderna */
+    }
+
+    h2 {
+        color: #343a40; /* Color del título */
+        margin-bottom: 30px; /* Espacio debajo del título */
+    }
+
+    .post-container {
+        max-width: 600px; /* Ancho máximo del contenedor */
+        margin: 0 auto; /* Centrar el contenedor */
+        padding: 30px; /* Espaciado interno */
+        background-color: #ffffff; /* Fondo blanco */
+        border-radius: 10px; /* Bordes redondeados */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+        border: 1px solid #dee2e6; /* Borde sutil */
+    }
+
+    .form-group {
+        margin-bottom: 20px; /* Espaciado entre grupos de formularios */
+    }
+
+    label {
+        font-weight: bold; /* Negrita para las etiquetas */
+        color: #495057; /* Color de las etiquetas */
+    }
+
+    input.form-control, textarea.form-control {
+        border: 1px solid #ced4da; /* Borde del control */
+        border-radius: 5px; /* Bordes redondeados */
+        padding: 10px; /* Espaciado interno */
+        transition: border-color 0.2s; /* Transición suave para el borde */
+    }
+
+        input.form-control:focus, textarea.form-control:focus {
+            border-color: #007bff; /* Cambio de borde en foco */
+            outline: none; /* Sin contorno en foco */
+        }
+
+    button {
+        background-color: #007bff; /* Color de fondo del botón */
+        color: white; /* Color del texto del botón */
+        border: none; /* Sin borde */
+        padding: 10px 15px; /* Espaciado interno del botón */
+        border-radius: 5px; /* Bordes redondeados */
+        cursor: pointer; /* Cambiar cursor al pasar por encima */
+        transition: background-color 0.3s; /* Transición suave para el color de fondo */
+        margin-right: 10px; /* Espacio entre botones */
+    }
+
+        button:hover {
+            background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+        }
+
+    .text-danger {
+        font-size: 0.875em; /* Tamaño de fuente más pequeño para mensajes de error */
+    }
+
+    .btn-secondary {
+        margin-left: 10px; /* Espacio entre los botones */
+    }
+</style>

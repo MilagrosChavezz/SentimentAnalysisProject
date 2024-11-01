@@ -14,6 +14,7 @@ builder.Services.AddSingleton<MLAnalysis>();
 builder.Services.AddSingleton<PeopleService>();
 builder.Services.AddSingleton<BlogService>();
 builder.Services.AddSingleton<SentimentAnalysisContext>();
+builder.Services.AddSingleton<IStatisticsService,StatisticsService>();
 
 var Configuration = builder.Configuration;
 
@@ -69,7 +70,7 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Prediction}/{action=Predict}/{id?}");
+        pattern: "{controller=Blog}/{action=Index}/{id?}");
 
     endpoints.MapControllerRoute(
         name: "account",

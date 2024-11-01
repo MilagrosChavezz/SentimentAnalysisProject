@@ -21,31 +21,32 @@ namespace SentimentAnalysis.Web.Controllers
             this.lAnalysis = lAnalysis;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var posts = _blogService.GetPosts();
+            var posts = await _blogService.GetPosts();
             return View(posts);
         }
-
-        public async Task<IActionResult> CrearPost()
+        public async Task<IActionResult> CreatePost()
         {
             return View();
         }
 
-        // ... other code ...
-
         [HttpPost]
-        public async Task<IActionResult> CrearPost(PostModelView postModel)
+        public async Task<IActionResult> CreatePost(PostModelView postModel)
         {
             var userEmail = User.FindFirstValue(ClaimTypes.Email);
 
             var user = await _userService.GetUserByEmailAsync(userEmail);
 
-            // Create a Data object from postModel.Text
             var data = new SentimentAnalysis.Entitys.Data { clean_text = postModel.Text };
            
             bool is_depression = lAnalysis.Predict(data).is_depression;
-
+            if (user == null)
+            {
+                
+                ModelState.AddModelError(string.Empty, "User not found.Please login");
+                return View(postModel);
+            }
             var post = new Post
             {
                 Text = postModel.Text,

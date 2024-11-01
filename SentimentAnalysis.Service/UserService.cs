@@ -28,20 +28,20 @@ namespace SentimentAnalysis.Service
            _peopleService = peopleService;
         }
 
-        // Método para obtener usuarios
+      
         public async Task<List<User>> GetUsers()
         {
             return await _context.Users.ToListAsync();
         }
 
-        // Método para guardar el perfil del usuario
+        
         public async Task SaveUserProfileAsync(string email, string name, string gender, DateOnly? birthdate)
         {
             var user = _context.Users.FirstOrDefault(u => u.Email == email);
 
             if (user == null)
             {
-                // Crear un nuevo usuario si no existe
+               
                 user = new User
                 {
                     Email = email,
@@ -54,7 +54,7 @@ namespace SentimentAnalysis.Service
             }
             else
             {
-                // Actualizar la información del usuario si ya existe
+               
                 user.UserName = name;
                 user.Genre = gender;
                 user.Birthday = birthdate;

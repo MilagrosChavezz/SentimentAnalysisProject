@@ -73,9 +73,8 @@ namespace SentimentAnalysis.Service
 
             var prediction = predictionEngine.Predict(data);
 
-            double threshold = 0.6; // Ajusta este valor según tus necesidades
+            double threshold = 0.6; 
 
-            // Modifica el valor de is_depression basado en el umbral
             prediction.is_depression = prediction.Score >= threshold;
 
             return prediction;

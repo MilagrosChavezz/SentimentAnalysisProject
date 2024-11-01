@@ -1,0 +1,164 @@
+﻿@model List<SentimentAnalysis.Data.Entities.Post>
+
+@{
+    ViewData["Title"] = "Comentarios Depresivos";
+}
+
+<div class="container">
+    <h2>Comentarios Depresivos</h2>
+
+    <div class="row">
+        <div class="comments-section">
+            <form method="get" action="@Url.Action("GetStatistics")">
+                <div class="form-group">
+                    <label for="genre">Seleccione un género:</label>
+                    <select name="genre" id="genre" asp-items="@ViewBag.Posts">
+                        <option value="">Seleccione un género</option>
+                    </select>
+                </div>
+                <button type="submit">Filtrar</button>
+            </form>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Comment</th>
+                            <th>Gender</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var comment in Model)
+                            {
+                                <tr>
+                                    <td>@comment.Text</td>
+                                    <td>@comment.User.Genre</td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="2" class="text-center">No se encontraron comentarios depresivos.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="statistics-section">
+            <h2>Gender Statistics</h2>
+            <img src="@Url.Action("GenderStatisticsImage", "Statistics")" alt="Gender Distribution" class="img-fluid" />
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif; 
+        margin: 0; 
+        padding: 0; 
+    }
+
+    .container {
+        max-width: 1200px; 
+        margin: 0 auto; 
+        padding: 20px;
+        background-color: #ffffff; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #343a40; 
+        border-bottom: 2px solid #007bff; 
+        padding-bottom: 10px; 
+        margin-bottom: 20px; 
+    }
+
+    .row {
+        display: flex; 
+        flex-wrap: wrap; 
+        gap: 20px; 
+    }
+
+    .comments-section {
+        flex: 1; 
+        padding: 20px;
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        background-color: #f9f9f9; 
+    }
+
+    .statistics-section {
+        flex: 0 0 300px; 
+        padding: 20px; 
+        border: 1px solid #ccc;
+        border-radius: 5px; 
+        background-color: #f9f9f9; 
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold; 
+    }
+
+    select {
+        width: 100%; 
+        padding: 10px; 
+        border: 1px solid #ced4da; 
+        border-radius: 5px; 
+        background-color: #ffffff; 
+        transition: border-color 0.2s; 
+    }
+
+        select:focus {
+            border-color: #007bff; 
+            outline: none; 
+        }
+
+    button {
+        background-color: #007bff; 
+        color: white; 
+        border: none; 
+        padding: 10px 15px; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        transition: background-color 0.3s; 
+    }
+
+        button:hover {
+            background-color: #0056b3; 
+        }
+
+    .table {
+        width: 100%; 
+        border-collapse: collapse; 
+    }
+
+        .table th, .table td {
+            padding: 12px; 
+            text-align: left; 
+            border-bottom: 1px solid #dee2e6; 
+        }
+
+        .table th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .table tr:hover {
+            background-color: #f1f1f1; 
+        }
+
+    .text-center {
+        text-align: center;
+    }
+</style>
