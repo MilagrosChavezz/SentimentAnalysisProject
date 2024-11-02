@@ -1,22 +1,21 @@
 ﻿@model List<SentimentAnalysis.Data.Entities.Post>
 
-@{
-    ViewData["Title"] = "Comentarios Depresivos";
-}
+
 
 <div class="container">
-    <h2>Comentarios Depresivos</h2>
+    <h2>Depressive comments</h2>
 
     <div class="row">
-        <div class="comments-section">
+        <div class="comments-section"> 
             <form method="get" action="@Url.Action("GetStatistics")">
                 <div class="form-group">
-                    <label for="genre">Seleccione un género:</label>
-                    <select name="genre" id="genre" asp-items="@ViewBag.Posts">
-                        <option value="">Seleccione un género</option>
+                    <label for="genre">Select Gender:</label>
+                    <select name="genre" id="genre" asp-items="@ViewBag.Posts"   >
+                        <option value="">All gender</option>
                     </select>
                 </div>
-                <button type="submit">Filtrar</button>
+                <button type="submit"  style="margin-top: 15px;">Filter</button>
+
             </form>
 
             <div class="table-responsive">

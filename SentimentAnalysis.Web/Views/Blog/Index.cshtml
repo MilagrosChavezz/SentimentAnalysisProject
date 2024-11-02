@@ -3,32 +3,22 @@
 @{
     ViewData["Title"] = "Blog";
 }
+<div class="container mt-5">
+    <h2 class="text-center mb-3">Express your feelings</h2>
 
-<div class="text-end">
-    @if (User.Identity.IsAuthenticated) // Verifica si el usuario está autenticado
-    {
-        <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
-            <button type="submit" class="btn btn-danger">Logout</button>
-        </form>
-    }
-    else
-    {
-        <form asp-controller="Account" asp-action="Login" method="post" class="d-inline">
-            <button type="submit" class="btn btn-primary">
-                <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google Logo" style="width:20px; margin-right:10px;" />
-                Login
-            </button>
-        </form>
-    }
-</div>
-<h2 class="text-center">Bienvenido a nuestro blog!</h2>
+    <div class="text-center text-muted" style="font-size: 14px; font-family: 'Arial', sans-serif; margin-bottom: 20px;">
+        All posts are anonymous. Feel free to express yourself!
+    </div>
 
-<div class="search-container text-center">
-    <form method="get" asp-controller="Blog" asp-action="Search">
-        <input type="text" name="keyword" placeholder="Buscar publicaciones..." required />
-        <button type="submit" class="btn btn-primary">Buscar</button>
-    </form>
+    <div class="search-container text-center">
+        <form method="get" asp-controller="Blog" asp-action="Search" class="d-flex justify-content-center">
+            <input type="text" class="form-control me-2" name="keyword" placeholder="Search posts..." style="max-width: 300px;" required />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
 </div>
+
+
 
 <div class="post-container">
     @if (Model != null && Model.Any())

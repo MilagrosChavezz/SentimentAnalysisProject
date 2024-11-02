@@ -73,7 +73,7 @@ namespace SentimentAnalysis.Web.Controllers
         [HttpPost]
         public IActionResult Login()
         {
-            var redirectUrl = Url.Action("Profile", "Account");
+            var redirectUrl = Url.Action("Index", "Blog");
             var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
             return Challenge(properties, "Google");
         }
@@ -81,7 +81,7 @@ namespace SentimentAnalysis.Web.Controllers
         [HttpPost]
         public IActionResult Logout()
         {
-            return SignOut(new AuthenticationProperties { RedirectUri = Url.Action("Predict", "Prediction") },
+            return SignOut(new AuthenticationProperties { RedirectUri = Url.Action("Index", "Blog") },
                 CookieAuthenticationDefaults.AuthenticationScheme);
         }
 

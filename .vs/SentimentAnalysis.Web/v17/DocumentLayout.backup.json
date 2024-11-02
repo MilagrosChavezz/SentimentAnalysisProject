@@ -3,24 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\prediction\\predict.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\prediction\\predict.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\blog\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\blog\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.service\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|solutionrelative:sentimentanalysis.service\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.service\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|solutionrelative:sentimentanalysis.service\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\statistics\\getstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\statistics\\getstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|solutionrelative:sentimentanalysis.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,40 +67,12 @@
       "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\statistics\\getstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\statistics\\getstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\views\\blog\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\views\\blog\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.service\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|solutionrelative:sentimentanalysis.service\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\models\\postmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\models\\postmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\models\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\models\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C6D160-94FD-400C-AA1F-FDD75B12BE77}|SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj|solutionrelative:sentimentanalysis.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43DF5DB5-B383-41D2-AF58-4C0E418E6006}|SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanallisys.data\\entities\\sentimentanalysiscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{CE533325-DAB6-44C6-B8C8-F1B027BB4920}|SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj|solutionrelative:sentimentanalysis.entitys\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|c:\\users\\admin\\source\\repos\\sentimentanalysisproject\\sentimentanalysis.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8E84D01B-3576-4410-8FBC-848B51B54E9A}|SentimentAnalysis.Web\\SentimentAnalysis.Web.csproj|solutionrelative:sentimentanalysis.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -110,17 +110,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\BlogService.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Service\\BlogService.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\BlogService.cs",
               "RelativeToolTip": "SentimentAnalysis.Service\\BlogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T04:13:27.327Z",
               "IsPinned": true
@@ -131,110 +131,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T06:25:28.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T04:24:00.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Predict.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T03:44:40.332Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\appsettings.json",
+              "RelativeToolTip": "SentimentAnalysis.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-21T03:47:27.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Blog\\Index.cshtml",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Blog\\Index.cshtml",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Blog\\Index.cshtml",
               "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Blog\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-01T05:21:33.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwEsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T22:26:31.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Predict.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Prediction\\Predict.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T04:52:09.981Z"
+              "WhenOpened": "2024-10-21T03:44:40.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T04:24:00.784Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\_ViewImports.cshtml",
+              "Title": "StatisticsService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\StatisticsService.cs",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Service\\StatisticsService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\StatisticsService.cs",
+              "RelativeToolTip": "SentimentAnalysis.Service\\StatisticsService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwFQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T02:42:22.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreatePost.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Blog\\CreatePost.cshtml",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Blog\\CreatePost.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Blog\\CreatePost.cshtml",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Blog\\CreatePost.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T06:25:29.544Z"
+              "WhenOpened": "2024-10-24T04:00:32.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Program.cs",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Program.cs",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAowEYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T20:14:00.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\appsettings.json",
-              "RelativeToolTip": "SentimentAnalysis.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-21T03:47:27.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Controllers\\BlogController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\BlogController.cs",
               "RelativeToolTip": "SentimentAnalysis.Web\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T03:46:27.609Z"
             },
@@ -246,37 +238,85 @@
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Statistics\\GetStatistics.cshtml",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Statistics\\GetStatistics.cshtml",
               "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Statistics\\GetStatistics.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-01T02:21:50.761Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "CreatePost.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Blog\\CreatePost.cshtml",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Blog\\CreatePost.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Blog\\CreatePost.cshtml",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Blog\\CreatePost.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T04:00:32.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "StatisticsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\StatisticsController.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Controllers\\StatisticsController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\StatisticsController.cs",
               "RelativeToolTip": "SentimentAnalysis.Web\\Controllers\\StatisticsController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwCEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T02:25:46.109Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\UserService.cs",
+              "RelativeToolTip": "SentimentAnalysis.Service\\UserService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwEEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T20:08:32.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T04:52:09.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T06:25:28.145Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T06:25:29.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Program.cs",
+              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Program.cs",
+              "RelativeToolTip": "SentimentAnalysis.Web\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAowEYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T20:14:00.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "PostModelView.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Models\\PostModelView.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Models\\PostModelView.cs",
@@ -288,19 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StatisticsService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\StatisticsService.cs",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Service\\StatisticsService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\StatisticsService.cs",
-              "RelativeToolTip": "SentimentAnalysis.Service\\StatisticsService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAFQAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T02:42:22.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CommentViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Models\\CommentViewModel.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Models\\CommentViewModel.cs",
@@ -312,19 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\UserService.cs",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\UserService.cs",
-              "RelativeToolTip": "SentimentAnalysis.Service\\UserService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T20:08:32.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "SentimentAnalysisContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\Entities\\SentimentAnalysisContext.cs",
               "RelativeDocumentMoniker": "SentimentAnallisys.Data\\Entities\\SentimentAnalysisContext.cs",
@@ -336,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\Entities\\User.cs",
               "RelativeDocumentMoniker": "SentimentAnallisys.Data\\Entities\\User.cs",
@@ -348,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "PeopleService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\PeopleService.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Service\\PeopleService.cs",
@@ -360,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "MLAnalysis.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\MLAnalysis.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Service\\MLAnalysis.cs",
@@ -372,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Data.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\Data.cs",
               "RelativeDocumentMoniker": "SentimentAnalysis.Entitys\\Data.cs",
@@ -381,18 +397,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T17:30:47.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "SentimentAnalysis.Web\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Web\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "SentimentAnalysis.Web\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAIBJwEYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T22:26:31.765Z"
             },
             {
               "$type": "Document",

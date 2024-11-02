@@ -27,7 +27,9 @@ namespace SentimentAnalysis.Service
 
         public async Task<List<Post>> GetPosts()
         {
-            return await context.Posts.ToListAsync();
+            return await context.Posts
+                .OrderByDescending(p=>p.PostDate)
+                .ToListAsync();
         }
 
         public async Task<Post?> GetPostById(int id)
@@ -45,7 +47,9 @@ namespace SentimentAnalysis.Service
 
         public async Task<List<Post>> GetPostsByUser(string username)
         {
-            return await context.Posts.Where(p => p.User.UserName == username).ToListAsync();
+            return await context.Posts
+                .Where(p => p.User.UserName == username)
+                .ToListAsync();
         }
 
         public  Task<DateOnly> SetDatePost()
