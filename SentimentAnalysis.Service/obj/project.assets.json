@@ -7608,11 +7608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj",
       "projectName": "SentimentAnalysis.Service",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Service\\SentimentAnalysis.Service.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Service\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7634,11 +7634,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj"
+            "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj"
             },
-            "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj"
+            "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnalysis.Entitys\\SentimentAnalysis.Entitys.csproj"
             }
           }
         }
@@ -7709,7 +7709,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
