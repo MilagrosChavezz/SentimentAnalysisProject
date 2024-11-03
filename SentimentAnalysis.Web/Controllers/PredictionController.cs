@@ -11,9 +11,9 @@ namespace SentimentAnalysis.Web.Controllers
     [AllowAnonymous]
     public class PredictionController : Controller
     {
-        private readonly MLAnalysis service; 
+        private readonly MLAnalysis service;
 
-        public PredictionController(MLAnalysis service) 
+        public PredictionController(MLAnalysis service)
         {
             this.service = service;
         }
@@ -39,11 +39,6 @@ namespace SentimentAnalysis.Web.Controllers
 
             return View(Data);
         }
-        [AllowAnonymous]
-        public IActionResult Predict()
-        {
-            ViewBag.PredictionResult = TempData["PredictionResult"];
-            return View();
-        }
+     
     }
 }

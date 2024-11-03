@@ -18,20 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Admin\Documents\GitHub\SentimentAnalysisProyect\SentimentAnalysis.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Account/Profile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Blog/CreatePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xDcmVhdGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Prediction/Predict.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGljdGlvblxQcmVkaWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Documents/GitHub/SentimentAnalysisProyect/SentimentAnalysis.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
