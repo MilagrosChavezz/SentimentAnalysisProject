@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj",
         "projectName": "SentimentAnalysis.Data",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\SentimentAnalysis.Data.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\SentimentAnalysisProyect\\SentimentAnallisys.Data\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\SentimentAnalysisProject\\SentimentAnallisys.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
