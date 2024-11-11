@@ -39,21 +39,23 @@ namespace SentimentAnalysis.Service
 
         public async Task<double> GetFemalePercentage()
         {
-            int totalUsers = await GetTotalUsers();
-            if (totalUsers == 0) return 0;
+            int totalPosts = await context.Posts.CountAsync(p => p.IsDepression == true);
+            if (totalPosts == 0) return 0;
 
-            int femaleCount = await GetTotalUsersFemale();
-            return (double)femaleCount / totalUsers * 100;
+            int femalePosts = await context.Posts.CountAsync(p => p.IsDepression == true && p.User.Genre == "female");
+            return (double)femalePosts / totalPosts * 100;
         }
+
 
         public async Task<double> GetMalePercentage()
         {
-            int totalUsers = await GetTotalUsers();
-            if (totalUsers == 0) return 0;
+            int totalPosts = await context.Posts.CountAsync(p => p.IsDepression == true);
+            if (totalPosts == 0) return 0;
 
-            int maleCount = await GetTotalUsersMale();
-            return (double)maleCount / totalUsers * 100;
+            int malePosts = await context.Posts.CountAsync(p => p.IsDepression == true && p.User.Genre == "male");
+            return (double)malePosts / totalPosts * 100;
         }
+
 
         public Task<int> GetTotalUsers()
         {
